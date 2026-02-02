@@ -66,10 +66,13 @@ The system is designed to handle **real-world documents**, including scanned PDF
 ## 📸 Images
 
 <img width="1365" height="729" alt="Screenshot 2026-02-02 105910" src="https://github.com/user-attachments/assets/b9214ea3-2371-48bc-87ed-ce46a83e5205" />
+
 ---
 <img width="1366" height="728" alt="Screenshot 2026-02-02 110028" src="https://github.com/user-attachments/assets/15e6a9e5-9b70-4909-8fd0-25056136debe" />
+
 ---
 <img width="1366" height="730" alt="Screenshot 2026-02-02 145202" src="https://github.com/user-attachments/assets/a3e0c7dd-0274-4c18-b451-0c41995ed432" />
+
 ---
 <img width="1366" height="728" alt="Screenshot 2026-02-02 145221" src="https://github.com/user-attachments/assets/416bd44a-91a2-4bc2-a930-5627a5d4519c" />
 
