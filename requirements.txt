@@ -1,0 +1,18 @@
+# ---------- Frontend ----------
+streamlit
+
+# ---------- Backend: OCR & Document Processing ----------
+PyPDF2
+python-docx
+python-pptx
+pillow
+pytesseract
+PyMuPDF
+
+# ---------- Embeddings & Vector Store ----------
+sentence-transformers
+faiss-cpu
+numpy
+
+# ---------- Networking / APIs ----------
+requests
