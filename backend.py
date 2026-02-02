@@ -8,15 +8,11 @@ import uuid
 import json
 from pathlib import Path
 from typing import List, Dict, Any, Optional
-
 import requests
 import PyPDF2
 import docx
 from pptx import Presentation
 import fitz  # PyMuPDF
-
-# Lazy imports for embeddings
-# sentence-transformers, faiss, numpy loaded later
 
 # =============================
 # Configuration
@@ -247,8 +243,8 @@ def call_openrouter(
     }
 
     payload = {
-        "model": model,               # MUST be "openrouter/free"
-        "messages": messages,         # OpenAI chat format
+        "model": model,              
+        "messages": messages,         
         "temperature": temperature,
         "max_tokens": max_tokens,
     }
@@ -322,5 +318,3 @@ def get_chatbot_response(
     except Exception as e:
         print("LLM failure:", e)
         return "An error occurred while generating the answer."
-
-#Can you give me an essay from the given pdf about a healthy living habits
