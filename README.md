@@ -17,8 +17,8 @@ The system is designed to handle **real-world documents**, including scanned PDF
 
 ### 2. Robust PDF Text Extraction
 - Uses a **hybrid extraction strategy**:
-  - Digital text extraction via PyPDF2
-  - **OCR fallback using PyMuPDF + Tesseract** for scanned PDFs
+- Digital text extraction via PyPDF2
+- **OCR fallback using PyMuPDF + Tesseract** for scanned PDFs
 - Supports multilingual OCR (English + Gujarati)
 
 ---
@@ -42,8 +42,8 @@ The system is designed to handle **real-world documents**, including scanned PDF
 - User queries retrieve top-k relevant chunks
 - Retrieved chunks are injected as structured context
 - LLM is explicitly instructed to:
-  - Use **only the provided context**
-  - Avoid hallucination or external knowledge
+- Use **only the provided context**
+- Avoid hallucination or external knowledge
 
 ---
 
